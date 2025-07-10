@@ -1,7 +1,7 @@
 services:
   - type: web
     name: biblioteca-pedro-zulen
-    runtime: docker
+    env: docker
     plan: free
+    dockerfilePath: ./Dockerfile
     branch: main
-    dockerfilePath: Dockerfile
