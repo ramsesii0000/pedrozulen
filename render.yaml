@@ -1,8 +1,6 @@
 services:
   - type: web
     name: biblioteca-pedro-zulen
-    runtime: java
-    buildCommand: "./mvnw clean package"
-    startCommand: "java -jar target/BibliotecaCentralPedroZulen-0.0.1-SNAPSHOT.jar"
+    runtime: docker
     plan: free
     branch: main
